@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ARMZ Technical Service — Home</title>
+  <meta name="description" content="ARMZ Technical Service — premium technical & maintenance solutions." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">ARMZ<span>Technical</span></a>
+      <nav class="nav" id="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="btn-outline">Contact</a>
+      </nav>
+
+      <button id="mobile-toggle" class="mobile-toggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <video class="hero-video" autoplay muted loop playsinline id="bgVideo">
+        <source src="armz-profile.mp4" type="video/mp4">
+        <!-- fallback image -->
+      </video>
+
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1>Precision. Reliability. ARMZ Technical Service.</h1>
+        <p class="lead">Comprehensive engineering and technical maintenance solutions for commercial and industrial projects.</p>
+        <div class="hero-cta">
+          <a href="services.html" class="btn-primary">Our Services</a>
+          <a href="projects.html" class="btn-ghost">View Projects</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>24/7</strong> Support</div>
+          <div><strong>Qualified</strong> Engineers</div>
+          <div><strong>Certified</strong> Safety Standards</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="overview container">
+      <div class="grid-3">
+        <article class="card">
+          <div class="card-icon">⚙️</div>
+          <h3>Electrical & Mechanical</h3>
+          <p>Specialized maintenance and system installs for industrial environments.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🛠️</div>
+          <h3>Preventive Maintenance</h3>
+          <p>Planned schedules that extend equipment life and reduce downtime.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">📈</div>
+          <h3>Technical Consultancy</h3>
+          <p>Optimization, audits and compliance to industry standards.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects-preview">
+      <div class="container">
+        <div class="section-head">
+          <h2>Signature Projects</h2>
+          <p>Selected works showcasing ARMZ engineering excellence.</p>
+        </div>
+
+        <div class="grid-3 cards">
+          <div class="project-card">
+            <img src="JUMEIRAH.jpg" alt="Project 1 image">
+            <div class="project-info">
+          <h4>JUMEIRAH BEACH HOTEL</h4>
+          <p>REFURBISHMENT WORKS</p>
+        </div>
+          </div>
+
+          <div class="project-card">
+            <img src="SAUDI GERMAN.jpg" alt="Project 2 image">
+            <div class="project-info">
+              <h4>SAUDI GERMAN HOSPITAL</h4>
+          <p>STAFF ACCOMMODATION </p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="PROPOSED TOWER.png" alt="Project 3 image">
+            <div class="project-info">
+               <h4>PROPOSED TOWER</h4>
+          <p>(B+G+29+R)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="center">
+          <a href="projects.html" class="btn-outline">See more projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-strip">
+      <div class="container cta-inner">
+        <div>
+          <h3>Ready to elevate your infrastructure?</h3>
+          <p>Contact ARMZ for a consultation and tailored technical plan.</p>
+        </div>
+        <a href="contact.html" class="btn-primary">Get a Quote</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <a class="brand footer-brand" href="index.html">ARMZ Technical Service</a>
+        <p>Premium technical maintenance & engineering solutions.</p>
+      </div>
+      <div class="footer-right">
+        <nav>
+          <a href="services.html">Services</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <small>© <span id="year"></span> ARMZ Technical Service — All rights reserved.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
